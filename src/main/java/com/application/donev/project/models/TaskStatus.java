@@ -1,4 +1,4 @@
-package com.application.donev.project.model;
+package com.application.donev.project.models;
 
 public enum TaskStatus {
     TODO,

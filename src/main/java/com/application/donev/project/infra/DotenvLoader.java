@@ -1,7 +1,9 @@
 package com.application.donev.project.infra;
 
 import io.github.cdimascio.dotenv.Dotenv;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class DotenvLoader {
 
     public static void load() {

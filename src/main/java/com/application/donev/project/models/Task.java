@@ -1,4 +1,4 @@
-package com.application.donev.project.model;
+package com.application.donev.project.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;

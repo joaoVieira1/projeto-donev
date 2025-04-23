@@ -1,6 +1,7 @@
-package com.application.donev.project.model;
+package com.application.donev.project.models;
 
 
+import com.application.donev.project.dtos.UserDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -23,5 +24,11 @@ public class User {
     private String email;
 
     private String password;
+
+    public User(UserDTO userDTO){
+        setUsername(userDTO.username());
+        setEmail(userDTO.email());
+        setPassword(userDTO.password());
+    }
 
 }
